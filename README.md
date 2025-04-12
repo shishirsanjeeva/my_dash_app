@@ -8,4 +8,4 @@ my_dash_app/
 └── data/               # Optional: data files if any
 
 
-License: MIT © Shishir S, 2025
+License: MIT © Shishir S, 2025# my_dash_app
