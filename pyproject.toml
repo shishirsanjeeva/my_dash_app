@@ -1,0 +1,11 @@
+[project]
+name = "my-dash-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dash>=3.0.2",
+    "numpy>=2.2.4",
+    "plotly>=6.0.1",
+]
