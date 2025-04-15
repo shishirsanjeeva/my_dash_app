@@ -1,9 +1,10 @@
 import numpy as np
 
-def calculate_y(formula, x, a=0, b=0, c=0):
-    if formula == 'linear':
-        return a * x + b
-    elif formula == 'quadratic':
-        return a * x**2 + b * x + c
+
+def calculate_y(formula, sigma_mean, sigma_alt, strength):
+    if formula == 'GM':
+        return fatigue_limit = simgma_alt / (1 - (sigma_mean/ultimate_strength))
+    elif formula == 'SB':
+        return fatigue_limit = simgma_alt / (1 - (sigma_mean/ultimate_strength))
     else:
         return np.zeros_like(x)
