@@ -2,7 +2,7 @@ from dash import html, dcc
 
 def serve_layout():
     return html.Div([
-        html.H2("Interactive Formula Tool"),
+        html.H1("Interactive Formula Tool"),
 
         html.Div([
             html.Label("Select Formula"),
