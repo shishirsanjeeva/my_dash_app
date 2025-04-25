@@ -32,7 +32,7 @@ def serve_layout():
         ], style={"margin": "10px 0"}),
 
         html.Div([
-            html.Label("Endurance Strength"),
+            html.Label("Endurance Strength  "),
             dcc.Input(id='end-strength', type='number', value=200, step=0.1),
         ], style={"margin": "10px 0"}),
 
